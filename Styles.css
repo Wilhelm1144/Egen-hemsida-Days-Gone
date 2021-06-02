@@ -1,0 +1,82 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 15rem auto;
+    min-height: 100rem;
+    font-size: 4rem;
+    grid-template-areas: 
+        "titel titel titel"
+        "menu text ."
+}
+
+.titel{
+    grid-area: titel;
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+    background-image: url(Bilder/days-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+    
+    
+    
+}
+
+.mymenu{
+    grid-area: menu;
+    background-color: darkgrey;
+    text-align: center;
+    background-image: url(Bilder/days-gone-image-4-1.jpg);
+    background-repeat: no-repeat;
+      background-size: cover
+}
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+}
+
+
+
+body {
+    background-color: dimgrey;
+}
+
+
+html {
+    font-size: 8px;
+}
+
+.mymain{
+    grid-area: text;
+    background-color: slategrey;
+    padding-left: 1rem;
+}
+
+p img{
+    float: right;
+    margin-right: 1rem;
+}
+
+.menuitems{
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    
+   
+}
+
+.boxed {
+  border: 5px solid black;
+  margin: 3rem
+}
+
+
